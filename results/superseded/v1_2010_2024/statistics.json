@@ -1,0 +1,208 @@
+{
+  "key": "sa__v1",
+  "label": "v1, dense paper weights on every rank",
+  "version": "v1",
+  "role": "superseded",
+  "folder": "superseded/v1_2010_2024",
+  "meta": {
+    "key": "sa__v1",
+    "projectId": 36836415,
+    "backtestId": "a456727ec32bb79734be1296d2be4b4a",
+    "name": "run1",
+    "created": "2026-09-22 17:47:09",
+    "backtestStart": "2010-01-01 00:00:00",
+    "backtestEnd": "2024-12-31 23:59:59",
+    "tradeableDates": 3774,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36836461,
+    "ordersReported": 10001,
+    "ordersExported": 10001,
+    "codeFiles": [
+      "main.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters": {},
+  "statistics": {
+    "Total Orders": "10001",
+    "Average Win": "0.04%",
+    "Average Loss": "-0.04%",
+    "Compounding Annual Return": "-3.214%",
+    "Drawdown": "17.800%",
+    "Expectancy": "-0.050",
+    "Start Equity": "1000000",
+    "End Equity": "888339.15",
+    "Net Profit": "-11.166%",
+    "Sharpe Ratio": "-0.692",
+    "Sortino Ratio": "-0.709",
+    "Probabilistic Sharpe Ratio": "0.005%",
+    "Loss Rate": "53%",
+    "Win Rate": "47%",
+    "Profit-Loss Ratio": "1.02",
+    "Alpha": "-0.028",
+    "Beta": "-0.013",
+    "Annual Standard Deviation": "0.042",
+    "Annual Variance": "0.002",
+    "Information Ratio": "-0.833",
+    "Tracking Error": "0.153",
+    "Treynor Ratio": "2.159",
+    "Total Fees": "$32512.98",
+    "Estimated Strategy Capacity": "$570000000.00",
+    "Lowest Capacity Asset": "BLK ROIDIDJRNXID",
+    "Portfolio Turnover": "12.67%",
+    "Drawdown Recovery": "88"
+  },
+  "runtimeStatistics": {
+    "Equity": "$888,339.15",
+    "Fees": "-$32,512.98",
+    "Holdings": "$886,756.28",
+    "Net Profit": "$-114,469.51",
+    "Probabilistic Sharpe Ratio": "0.005%",
+    "Return": "-11.17 %",
+    "Unrealized": "$2,631.31",
+    "Volume": "$162,515,150.13"
+  },
+  "tradeStatistics": {
+    "startDateTime": "2010-01-04T21:00:00Z",
+    "endDateTime": "2013-08-15T20:00:00Z",
+    "totalNumberOfTrades": 8583,
+    "numberOfWinningTrades": 4177,
+    "numberOfLosingTrades": 4406,
+    "totalProfitLoss": "-81956.20",
+    "totalProfit": "1265917.37",
+    "totalLoss": "-1347873.57",
+    "largestProfit": "21759.88",
+    "largestLoss": "-21645.82",
+    "averageProfitLoss": "-9.5487",
+    "averageProfit": "303.0686",
+    "averageLoss": "-305.9177",
+    "averageTradeDuration": "18.14:29:25.3967406",
+    "averageWinningTradeDuration": "20.07:41:22.1642433",
+    "averageLosingTradeDuration": "16.23:25:57.3309345",
+    "medianTradeDuration": "14.23:00:00",
+    "medianWinningTradeDuration": "18.00:00:00",
+    "medianLosingTradeDuration": "12.00:00:00",
+    "maxConsecutiveWinningTrades": 127,
+    "maxConsecutiveLosingTrades": 85,
+    "profitLossRatio": "0.9907",
+    "winLossRatio": "0.9480",
+    "winRate": "0.4867",
+    "lossRate": "0.5133",
+    "averageMAE": "-362.8933",
+    "averageMFE": "356.4696",
+    "largestMAE": "-21645.82",
+    "largestMFE": "56338.26",
+    "maximumClosedTradeDrawdown": "-163105.45",
+    "maximumIntraTradeDrawdown": "-183316.60",
+    "profitLossStandardDeviation": "752.8573",
+    "profitLossDownsideDeviation": "719.0177",
+    "profitFactor": "0.9392",
+    "sharpeRatio": "-0.0127",
+    "sortinoRatio": "-0.0133",
+    "profitToMaxDrawdownRatio": "-0.5025",
+    "maximumEndTradeDrawdown": "43011.87",
+    "averageEndTradeDrawdown": "-366.0182",
+    "maximumDrawdownDuration": "58.01:00:00",
+    "totalFees": "32476.3583"
+  },
+  "portfolioStatistics": {
+    "averageWinRate": "0.0004",
+    "averageLossRate": "-0.0004",
+    "profitLossRatio": "1.0203",
+    "winRate": "0.4702",
+    "lossRate": "0.5298",
+    "expectancy": "-0.0500",
+    "startEquity": "1000000",
+    "endEquity": "888339.1451",
+    "compoundingAnnualReturn": "-0.0321",
+    "drawdown": "0.178",
+    "totalNetProfit": "-0.1117",
+    "sharpeRatio": "-0.6917",
+    "probabilisticSharpeRatio": "0.0000",
+    "sortinoRatio": "-0.7088",
+    "alpha": "-0.0276",
+    "beta": "-0.0134",
+    "annualStandardDeviation": "0.0417",
+    "annualVariance": "0.0017",
+    "informationRatio": "-0.8331",
+    "trackingError": "0.1527",
+    "treynorRatio": "2.1593",
+    "portfolioTurnover": "0.1267",
+    "valueAtRisk99": "-0.006",
+    "valueAtRisk95": "-0.004",
+    "drawdownRecovery": "88"
+  },
+  "analysis": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2012-11-06T05:00:00",
+          "end": "2012-11-28T05:00:00",
+          "trading_days": 16
+        },
+        {
+          "start": "2011-12-29T05:00:00",
+          "end": "2011-12-31T05:00:00",
+          "trading_days": 3
+        },
+        {
+          "start": "2012-02-29T05:00:00",
+          "end": "2012-03-01T05:00:00",
+          "trading_days": 2
+        }
+      ]
+    },
+    {
+      "name": "ExceededMaximumOrdersOrderResponseErrorAnalysis",
+      "issue": "The algorithm hit the organization's quota for the number of orders allowed in a backtest.",
+      "sample": "2013-08-16 00:00:00 You have exceeded maximum number of orders (10000), for unlimited orders upgrade your account."
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 848"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.0275017785608527,
+        "benchmarkSharpe": -0.574983609710672
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "Fukushima Meltdown 2011",
+        "backtestSharpe": -4.841475520116802,
+        "benchmarkSharpe": -0.7741156604927433
+      }
+    }
+  ],
+  "derived": {
+    "orders_by_status": {
+      "Canceled": 218,
+      "Filled": 9778,
+      "Submitted": 5
+    },
+    "first_date_traded": "2010-01-04",
+    "last_date_traded": "2013-08-15",
+    "order_cap_hit": "2013-08-16",
+    "insufficient_buying_power_errors": null,
+    "lean_version": "v2.5.0.0.18116",
+    "code_sha256_as_run": {
+      "main.py": "54362e381867f6cabdbecbfc6a350cbad073fa6b36ff931d8f38de93f90bec15",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    },
+    "code_sha256_published": {
+      "main.py": "82bf0048889229a3e824bce89bdc707cc38fac29cf51f8a06f1b07a08bbb9060",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    }
+  }
+}

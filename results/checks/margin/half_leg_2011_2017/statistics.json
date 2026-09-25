@@ -1,0 +1,236 @@
+{
+  "key": "sa__half_leg_2011",
+  "label": "v3 half legs, 2011 to 2017",
+  "version": "v3 half legs",
+  "role": "check",
+  "folder": "checks/margin/half_leg_2011_2017",
+  "meta": {
+    "key": "sa__half_leg_2011",
+    "projectId": 36836415,
+    "backtestId": "2d103fcf069fbd64db1c7b2ef0d57868",
+    "name": "v3 leg_weight 0.025 2011-2017",
+    "created": "2026-09-25 00:16:47",
+    "backtestStart": "2011-01-01 00:00:00",
+    "backtestEnd": "2017-12-31 23:59:59",
+    "tradeableDates": 1761,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36924196,
+    "leanVersion": "v2.5.0.0.18126",
+    "exported": "2026-09-25",
+    "ordersReported": 7654,
+    "ordersExported": 7654,
+    "codeFiles": [
+      "main.py",
+      "rank_space.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters": {
+    "start_year": "2011",
+    "end_year": "2017",
+    "leg_weight": "0.025"
+  },
+  "statistics": {
+    "Total Orders": "7654",
+    "Average Win": "0.09%",
+    "Average Loss": "-0.09%",
+    "Compounding Annual Return": "0.722%",
+    "Drawdown": "5.500%",
+    "Expectancy": "0.016",
+    "Start Equity": "1000000",
+    "End Equity": "1051654.95",
+    "Net Profit": "5.165%",
+    "Sharpe Ratio": "-0.162",
+    "Sortino Ratio": "-0.193",
+    "Probabilistic Sharpe Ratio": "0.012%",
+    "Loss Rate": "51%",
+    "Win Rate": "49%",
+    "Profit-Loss Ratio": "1.06",
+    "Alpha": "-0.004",
+    "Beta": "-0.003",
+    "Annual Standard Deviation": "0.024",
+    "Annual Variance": "0.001",
+    "Information Ratio": "-0.788",
+    "Tracking Error": "0.12",
+    "Treynor Ratio": "1.374",
+    "Total Fees": "$41279.15",
+    "Estimated Strategy Capacity": "$150000000.00",
+    "Lowest Capacity Asset": "EOG R735QTJ8XC9X",
+    "Portfolio Turnover": "7.90%",
+    "Drawdown Recovery": "884"
+  },
+  "runtimeStatistics": {
+    "Equity": "$1,051,654.95",
+    "Fees": "-$41,279.15",
+    "Holdings": "$721,420.60",
+    "Net Profit": "$50,483.24",
+    "Probabilistic Sharpe Ratio": "0.012%",
+    "Return": "5.17 %",
+    "Unrealized": "$1,027.43",
+    "Volume": "$206,323,233.18"
+  },
+  "tradeStatistics": {
+    "startDateTime": "2011-01-03T21:00:00Z",
+    "endDateTime": "2017-12-27T21:00:00Z",
+    "totalNumberOfTrades": 3656,
+    "numberOfWinningTrades": 1827,
+    "numberOfLosingTrades": 1829,
+    "totalProfitLoss": "91762.52",
+    "totalProfit": "1612031.05",
+    "totalLoss": "-1520268.53",
+    "largestProfit": "11682.80",
+    "largestLoss": "-8058.74",
+    "averageProfitLoss": "25.0992",
+    "averageProfit": "882.3377",
+    "averageLoss": "-831.2020",
+    "averageTradeDuration": "18.12:54:30.1312940",
+    "averageWinningTradeDuration": "19.01:29:19.6059116",
+    "averageLosingTradeDuration": "18.00:20:30.1804280",
+    "medianTradeDuration": "19.00:00:00",
+    "medianWinningTradeDuration": "20.00:00:00",
+    "medianLosingTradeDuration": "18.00:00:00",
+    "maxConsecutiveWinningTrades": 10,
+    "maxConsecutiveLosingTrades": 15,
+    "profitLossRatio": "1.0615",
+    "winLossRatio": "0.9989",
+    "winRate": "0.4997",
+    "lossRate": "0.5003",
+    "averageMAE": "-729.7987",
+    "averageMFE": "749.9013",
+    "largestMAE": "-15211.74",
+    "largestMFE": "16382.33",
+    "maximumClosedTradeDrawdown": "-47452.93",
+    "maximumIntraTradeDrawdown": "-47811.36",
+    "profitLossStandardDeviation": "1264.8306",
+    "profitLossDownsideDeviation": "901.1487",
+    "profitFactor": "1.0604",
+    "sharpeRatio": "0.0198",
+    "sortinoRatio": "0.0279",
+    "profitToMaxDrawdownRatio": "1.9338",
+    "maximumEndTradeDrawdown": "11272.64",
+    "averageEndTradeDrawdown": "-724.8021",
+    "maximumDrawdownDuration": "705.00:00:00",
+    "totalFees": "41172.7379"
+  },
+  "portfolioStatistics": {
+    "averageWinRate": "0.0009",
+    "averageLossRate": "-0.0009",
+    "profitLossRatio": "1.0557",
+    "winRate": "0.4945",
+    "lossRate": "0.5055",
+    "expectancy": "0.0165",
+    "startEquity": "1000000",
+    "endEquity": "1051654.9464",
+    "compoundingAnnualReturn": "0.0072",
+    "drawdown": "0.055",
+    "totalNetProfit": "0.0517",
+    "sharpeRatio": "-0.1619",
+    "probabilisticSharpeRatio": "0.0001",
+    "sortinoRatio": "-0.1927",
+    "alpha": "-0.0036",
+    "beta": "-0.0028",
+    "annualStandardDeviation": "0.0237",
+    "annualVariance": "0.0006",
+    "informationRatio": "-0.7876",
+    "trackingError": "0.1203",
+    "treynorRatio": "1.3736",
+    "portfolioTurnover": "0.0790",
+    "valueAtRisk99": "-0.004",
+    "valueAtRisk95": "-0.003",
+    "drawdownRecovery": "884"
+  },
+  "analysis": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2016-01-30T05:00:00",
+          "end": "2016-02-24T05:00:00",
+          "trading_days": 17
+        },
+        {
+          "start": "2012-11-06T05:00:00",
+          "end": "2012-11-28T05:00:00",
+          "trading_days": 16
+        },
+        {
+          "start": "2011-12-29T05:00:00",
+          "end": "2011-12-31T05:00:00",
+          "trading_days": 3
+        },
+        {
+          "start": "2015-11-26T05:00:00",
+          "end": "2015-12-01T05:00:00",
+          "trading_days": 3
+        },
+        {
+          "start": "2016-12-17T05:00:00",
+          "end": "2016-12-21T05:00:00",
+          "trading_days": 3
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "InsufficientBuyingPowerOrderResponseErrorAnalysis",
+      "issue": "One of the following cases occurred:\n - The algorithm tried to place an order but the buying power model determined you couldn't afford it\n - The algorithm tried to place a market on open order with daily data",
+      "sample": "Order Error: ids: [1249], Insufficient buying power to complete orders (Value:[23256.4395]), Reason: Id: 1249, Initial Margin: 11632.8710384342136, Free Margin: 5819.38879191487831959.",
+      "count": 237
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 1669"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -4.2227594818683905,
+        "benchmarkSharpe": -0.6104128393543391
+      }
+    },
+    {
+      "name": "CrisisEventsAnalysis",
+      "issue": "The strategy underperformed the benchmark during some crisis events in terms of risk-adjusted returns.",
+      "sample": {
+        "crisisEvent": "Fukushima Meltdown 2011",
+        "backtestSharpe": -4.614932934518285,
+        "benchmarkSharpe": -0.7741156604927433
+      }
+    },
+    {
+      "name": "MonteCarloPercentileAnalysis",
+      "issue": "The equity curve is very optimistic. It has a greater ending equity than more than 90% of the simulated equity curves, indicating the performance was unusually lucky due to a sequence of favorable days.",
+      "sample": {
+        "percentile": 100
+      }
+    }
+  ],
+  "derived": {
+    "orders_by_status": {
+      "Canceled": 721,
+      "Filled": 6696,
+      "Invalid": 237
+    },
+    "first_date_traded": "2011-01-03",
+    "last_date_traded": "2017-12-27",
+    "order_cap_hit": "",
+    "insufficient_buying_power_errors": 237,
+    "lean_version": "v2.5.0.0.18126",
+    "code_sha256_as_run": {
+      "main.py": "aec2f202be3b48b99df212fbe453f215287858765bf2fa5b570e61991c4ec872",
+      "rank_space.py": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    },
+    "code_sha256_published": {
+      "main.py": "d546cab74c7e72b22616fad99f4508072977181d7a905aa41757dde50c23c382",
+      "rank_space.py": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    }
+  }
+}

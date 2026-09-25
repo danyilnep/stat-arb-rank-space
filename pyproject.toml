@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stat-arb-rank-space"
+version = "1.0.0"
+description = "Statistical arbitrage in rank space (Li and Papanicolaou, arXiv:2410.06568v1), Algorithms 1 and 2 on QuantConnect"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy"]
+
+[tool.setuptools]
+# Only the numpy module is installable; main.py needs QuantConnect's AlgorithmImports and runs there.
+py-modules = ["rank_space"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+# received/ is the 2024 material as received; results/ holds code QuantConnect ran, copied from the exports.
+extend-exclude = ["received", "results"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+# QuantConnect's own convention: `from AlgorithmImports import *` supplies QCAlgorithm, Resolution, ...
+"main.py" = ["F403", "F405"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,19 @@
+{
+  "algorithm-language": "Python",
+  "description": "Statistical arbitrage in rank space (Li and Papanicolaou, arXiv:2410.06568v1), Algorithms 1 and 2, daily, 100 ranks, 2 bp costs, v4 daily capitalisations.",
+  "parameters": {
+    "start_year": "2018",
+    "end_year": "2024",
+    "n_ranks": "100",
+    "factor_window": "252",
+    "loading_window": "60",
+    "open_threshold": "1.25",
+    "close_threshold": "0.5",
+    "max_tau_days": "30",
+    "fee_bps": "2",
+    "cap_source": "rolled",
+    "leg_weight": "0.025",
+    "order_threshold": "0.015",
+    "hedge_threshold": "0.02"
+  }
+}

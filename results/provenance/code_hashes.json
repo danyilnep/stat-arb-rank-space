@@ -1,0 +1,334 @@
+{
+ "about": "Not a QuantConnect export. In the exports whose embedded code carried it, one docstring paragraph was rewritten to leave out the names of the other 2024 team members; every other byte of each export is as QuantConnect returned it. For each export key and code file: as_run is the SHA-256 of the UTF-8 text QuantConnect ran, published the SHA-256 of the text in results/raw, and names_removed whether the two differ.",
+ "hashes": {
+  "audit__spy_2015_2019": {
+   "main.py": {
+    "as_run": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+    "published": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "capprobe2__2019": {
+   "main.py": {
+    "as_run": "91a3ed68d64df351775d4bc58c83637d3c13373937962fdf42fd6fbde813d43d",
+    "published": "91a3ed68d64df351775d4bc58c83637d3c13373937962fdf42fd6fbde813d43d",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "check__v3_via_params_2018": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "control__sa_v3_2018_recorded_code": {
+   "main.py": {
+    "as_run": "6b42cfb3baa3271e3c87e7a043ad9f4f331caae97dcddc9927a3583c67edd49b",
+    "published": "7db688b9739d1889734fac225a82859ac959489aea913e098495b5af0a75860b",
+    "names_removed": true
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "probe2__2012": {
+   "main.py": {
+    "as_run": "03f9a3337428f3f16743a2b5028c69db706c2f6a53bbe4a3f53fabd506f4ad34",
+    "published": "03f9a3337428f3f16743a2b5028c69db706c2f6a53bbe4a3f53fabd506f4ad34",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "probe2__2019": {
+   "main.py": {
+    "as_run": "03f9a3337428f3f16743a2b5028c69db706c2f6a53bbe4a3f53fabd506f4ad34",
+    "published": "03f9a3337428f3f16743a2b5028c69db706c2f6a53bbe4a3f53fabd506f4ad34",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "rerun__sa_v3_2011": {
+   "main.py": {
+    "as_run": "aec2f202be3b48b99df212fbe453f215287858765bf2fa5b570e61991c4ec872",
+    "published": "d546cab74c7e72b22616fad99f4508072977181d7a905aa41757dde50c23c382",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "published": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "rerun__sa_v3_2018": {
+   "main.py": {
+    "as_run": "aec2f202be3b48b99df212fbe453f215287858765bf2fa5b570e61991c4ec872",
+    "published": "d546cab74c7e72b22616fad99f4508072977181d7a905aa41757dde50c23c382",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "published": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__half_leg_2011": {
+   "main.py": {
+    "as_run": "aec2f202be3b48b99df212fbe453f215287858765bf2fa5b570e61991c4ec872",
+    "published": "d546cab74c7e72b22616fad99f4508072977181d7a905aa41757dde50c23c382",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "published": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__half_leg_2018": {
+   "main.py": {
+    "as_run": "aec2f202be3b48b99df212fbe453f215287858765bf2fa5b570e61991c4ec872",
+    "published": "d546cab74c7e72b22616fad99f4508072977181d7a905aa41757dde50c23c382",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "published": "576c149bc6597ccde3019948bafeb7ed26f1e93d5af8ead5091c3d5227c085a8",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v1": {
+   "main.py": {
+    "as_run": "54362e381867f6cabdbecbfc6a350cbad073fa6b36ff931d8f38de93f90bec15",
+    "published": "82bf0048889229a3e824bce89bdc707cc38fac29cf51f8a06f1b07a08bbb9060",
+    "names_removed": true
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v2": {
+   "main.py": {
+    "as_run": "1b69663023ac232638071ed4fc14ac4d6af3f787e2b4bf68edb573c34f32515b",
+    "published": "8b57877a65ca9f66fd770a22734d1bddf37584b1622d496db57a595546060a5b",
+    "names_removed": true
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v3_2011": {
+   "main.py": {
+    "as_run": "6b42cfb3baa3271e3c87e7a043ad9f4f331caae97dcddc9927a3583c67edd49b",
+    "published": "7db688b9739d1889734fac225a82859ac959489aea913e098495b5af0a75860b",
+    "names_removed": true
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v3_2018": {
+   "main.py": {
+    "as_run": "6b42cfb3baa3271e3c87e7a043ad9f4f331caae97dcddc9927a3583c67edd49b",
+    "published": "7db688b9739d1889734fac225a82859ac959489aea913e098495b5af0a75860b",
+    "names_removed": true
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2011": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2013": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2015": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2017": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2018": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2020": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2022": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  },
+  "sa__v4_2024": {
+   "main.py": {
+    "as_run": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+    "published": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+    "names_removed": true
+   },
+   "rank_space.py": {
+    "as_run": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "published": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+    "names_removed": false
+   },
+   "research.ipynb": {
+    "as_run": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "published": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e",
+    "names_removed": false
+   }
+  }
+ }
+}

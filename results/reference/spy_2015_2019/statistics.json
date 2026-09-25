@@ -1,0 +1,75 @@
+{
+  "key": "audit__spy_2015_2019",
+  "label": "Reference, SPY buy and hold 2015 to 2019",
+  "version": "reference",
+  "role": "reference",
+  "folder": "reference/spy_2015_2019",
+  "meta": {
+    "key": "audit__spy_2015_2019",
+    "projectId": 36922759,
+    "backtestId": "59188fbb663a9156f0a91ef329d1a6e0",
+    "name": "spy 2015-2019",
+    "created": "2026-09-24 23:16:46",
+    "backtestStart": "2015-01-01 00:00:00",
+    "backtestEnd": "2019-12-31 23:59:59",
+    "snapshotId": 36922761
+  },
+  "parameters": {
+    "mode": "spy_2015_2019"
+  },
+  "statistics": {
+    "Total Orders": "1",
+    "Average Win": "0%",
+    "Average Loss": "0%",
+    "Compounding Annual Return": "11.620%",
+    "Drawdown": "19.200%",
+    "Expectancy": "0",
+    "Start Equity": "100000",
+    "End Equity": "173298.08",
+    "Net Profit": "73.298%",
+    "Sharpe Ratio": "0.618",
+    "Sortino Ratio": "0.637",
+    "Probabilistic Sharpe Ratio": "13.577%",
+    "Loss Rate": "0%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0.001",
+    "Beta": "0.991",
+    "Annual Standard Deviation": "0.111",
+    "Annual Variance": "0.012",
+    "Information Ratio": "0.099",
+    "Tracking Error": "0.002",
+    "Treynor Ratio": "0.069",
+    "Total Fees": "$2.95",
+    "Estimated Strategy Capacity": "$1500000000.00",
+    "Lowest Capacity Asset": "SPY R735QTJ8XC9X",
+    "Portfolio Turnover": "0.05%",
+    "Drawdown Recovery": "272"
+  },
+  "runtimeStatistics": {
+    "Equity": "$173,298.08",
+    "Fees": "-$2.95",
+    "Holdings": "$172,373.55",
+    "Net Profit": "$-2.95",
+    "Probabilistic Sharpe Ratio": "13.577%",
+    "Return": "73.30 %",
+    "Unrealized": "$73,298.08",
+    "Volume": "$99,072.52"
+  },
+  "derived": {
+    "orders_by_status": {},
+    "first_date_traded": "",
+    "last_date_traded": "",
+    "order_cap_hit": "",
+    "insufficient_buying_power_errors": null,
+    "lean_version": "v2.5.0.0.18126",
+    "code_sha256_as_run": {
+      "main.py": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    },
+    "code_sha256_published": {
+      "main.py": "7fa49674a4c1163e3b503106310aa0d8fa5e725bfe8fa45f27783bd5c288e078",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "key": "sa__v4_2022",
+  "label": "v4, 2022 to 2023",
+  "version": "v4",
+  "role": "current",
+  "folder": "v4/2022_2023",
+  "meta": {
+    "key": "sa__v4_2022",
+    "projectId": 36836415,
+    "backtestId": "471170f7d06324c6c8d3a0485c9f86bd",
+    "name": "v4 daily caps 2022-2023",
+    "created": "2026-09-25 00:58:20",
+    "backtestStart": "2022-01-01 00:00:00",
+    "backtestEnd": "2023-12-31 23:59:59",
+    "tradeableDates": 501,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36925153,
+    "leanVersion": "v2.5.0.0.18126",
+    "exported": "2026-09-25",
+    "ordersReported": 10001,
+    "ordersExported": 10001,
+    "codeFiles": [
+      "main.py",
+      "rank_space.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters": {
+    "start_year": "2022",
+    "end_year": "2023"
+  },
+  "statistics": {
+    "Total Orders": "10001",
+    "Average Win": "0.07%",
+    "Average Loss": "-0.07%",
+    "Compounding Annual Return": "-0.536%",
+    "Drawdown": "9.700%",
+    "Expectancy": "-0.003",
+    "Start Equity": "1000000",
+    "End Equity": "990809.75",
+    "Net Profit": "-0.919%",
+    "Sharpe Ratio": "-0.847",
+    "Sortino Ratio": "-1.113",
+    "Probabilistic Sharpe Ratio": "0.186%",
+    "Loss Rate": "50%",
+    "Win Rate": "50%",
+    "Profit-Loss Ratio": "1.00",
+    "Alpha": "-0.034",
+    "Beta": "0.014",
+    "Annual Standard Deviation": "0.041",
+    "Annual Variance": "0.002",
+    "Information Ratio": "0.001",
+    "Tracking Error": "0.172",
+    "Treynor Ratio": "-2.543",
+    "Total Fees": "$52265.46",
+    "Estimated Strategy Capacity": "$430000000.00",
+    "Lowest Capacity Asset": "AMB R735QTJ8XC9X",
+    "Portfolio Turnover": "41.54%",
+    "Drawdown Recovery": "147"
+  },
+  "runtimeStatistics": {
+    "Equity": "$990,809.75",
+    "Fees": "-$52,265.46",
+    "Holdings": "$1,187,980.33",
+    "Net Profit": "$-7,764.93",
+    "Probabilistic Sharpe Ratio": "0.186%",
+    "Return": "-0.92 %",
+    "Unrealized": "$-1,662.91",
+    "Volume": "$261,319,092.94"
+  },
+  "tradeStatistics": {
+    "startDateTime": "2022-01-04T21:00:00Z",
+    "endDateTime": "2023-09-19T20:00:00Z",
+    "totalNumberOfTrades": 5028,
+    "numberOfWinningTrades": 2524,
+    "numberOfLosingTrades": 2504,
+    "totalProfitLoss": "44377.28",
+    "totalProfit": "1770899.24",
+    "totalLoss": "-1726521.96",
+    "largestProfit": "8081.10",
+    "largestLoss": "-7856.39",
+    "averageProfitLoss": "8.8260",
+    "averageProfit": "701.6241",
+    "averageLoss": "-689.5056",
+    "averageTradeDuration": "5.12:58:47.6850023",
+    "averageWinningTradeDuration": "5.08:42:44.5008107",
+    "averageLosingTradeDuration": "5.17:16:53.5782945",
+    "medianTradeDuration": "4.00:00:00",
+    "medianWinningTradeDuration": "4.00:00:00",
+    "medianLosingTradeDuration": "4.00:00:00",
+    "maxConsecutiveWinningTrades": 14,
+    "maxConsecutiveLosingTrades": 10,
+    "profitLossRatio": "1.0176",
+    "winLossRatio": "1.0080",
+    "winRate": "0.5020",
+    "lossRate": "0.4980",
+    "averageMAE": "-573.9384",
+    "averageMFE": "572.3279",
+    "largestMAE": "-16274.09",
+    "largestMFE": "16247.71",
+    "maximumClosedTradeDrawdown": "-90964.16",
+    "maximumIntraTradeDrawdown": "-91995.64",
+    "profitLossStandardDeviation": "1039.4504",
+    "profitLossDownsideDeviation": "785.5768",
+    "profitFactor": "1.0257",
+    "sharpeRatio": "0.0085",
+    "sortinoRatio": "0.0112",
+    "profitToMaxDrawdownRatio": "0.4879",
+    "maximumEndTradeDrawdown": "7856.39",
+    "averageEndTradeDrawdown": "-563.5018",
+    "maximumDrawdownDuration": "57.00:00:00",
+    "totalFees": "52055.6920"
+  },
+  "portfolioStatistics": {
+    "averageWinRate": "0.0007",
+    "averageLossRate": "-0.0007",
+    "profitLossRatio": "1.0013",
+    "winRate": "0.4983",
+    "lossRate": "0.5017",
+    "expectancy": "-0.0028",
+    "startEquity": "1000000",
+    "endEquity": "990809.754",
+    "compoundingAnnualReturn": "-0.0054",
+    "drawdown": "0.097",
+    "totalNetProfit": "-0.0092",
+    "sharpeRatio": "-0.8470",
+    "probabilisticSharpeRatio": "0.0019",
+    "sortinoRatio": "-1.1125",
+    "alpha": "-0.0344",
+    "beta": "0.0137",
+    "annualStandardDeviation": "0.0412",
+    "annualVariance": "0.0017",
+    "informationRatio": "0.0011",
+    "trackingError": "0.1720",
+    "treynorRatio": "-2.5431",
+    "portfolioTurnover": "0.4154",
+    "valueAtRisk99": "-0.006",
+    "valueAtRisk95": "-0.004",
+    "drawdownRecovery": "147"
+  },
+  "analysis": [
+    {
+      "name": "FlatEquityCurveAnalysis",
+      "issue": "The equity curve is flat for several days in a row.",
+      "sample": [
+        {
+          "start": "2022-01-01T05:00:00Z",
+          "end": "2022-01-04T05:00:00",
+          "trading_days": 2
+        }
+      ]
+    },
+    {
+      "name": "InsufficientBuyingPowerOrderResponseErrorAnalysis",
+      "issue": "One of the following cases occurred:\n - The algorithm tried to place an order but the buying power model determined you couldn't afford it\n - The algorithm tried to place a market on open order with daily data",
+      "sample": "Order Error: ids: [5771], Insufficient buying power to complete orders (Value:[25648.5471]), Reason: Id: 5771, Initial Margin: 12829.403283957811201, Free Margin: 2641.33590165732354384.",
+      "count": 2
+    },
+    {
+      "name": "ExceededMaximumOrdersOrderResponseErrorAnalysis",
+      "issue": "The algorithm hit the organization's quota for the number of orders allowed in a backtest.",
+      "sample": "2023-09-20 00:00:00 You have exceeded maximum number of orders (10000), for unlimited orders upgrade your account."
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 172"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -6.51928721448321,
+        "benchmarkSharpe": -1.645503404600318
+      }
+    },
+    {
+      "name": "StatisticalSignificanceOfDailyReturnsAnalysis",
+      "issue": "The distribution of the strategy's daily returns in excess of the benchmark's daily returns has a p-value above 0.05. Therefore, we fail to reject the null hypothesis that the mean of this distribution is above zero.",
+      "sample": {
+        "pValue": 0.1740899448561311
+      }
+    }
+  ],
+  "derived": {
+    "orders_by_status": {
+      "Canceled": 593,
+      "Filled": 9393,
+      "Invalid": 2,
+      "Submitted": 13
+    },
+    "first_date_traded": "2022-01-04",
+    "last_date_traded": "2023-09-19",
+    "order_cap_hit": "2023-09-20",
+    "insufficient_buying_power_errors": 2,
+    "lean_version": "v2.5.0.0.18126",
+    "code_sha256_as_run": {
+      "main.py": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+      "rank_space.py": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    },
+    "code_sha256_published": {
+      "main.py": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+      "rank_space.py": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.venv/
+.pytest_cache/
+.ruff_cache/
+# Office lock files, e.g. ~$deck.pptx while received/deck.pptx is open
+~$*
+# Build output of pip or setuptools
+build/
+dist/
+*.egg-info/

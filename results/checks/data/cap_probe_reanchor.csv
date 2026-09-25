@@ -1,0 +1,4 @@
+ticker,anchor_date,anchor_cap_bn,anchor_price_adjusted,anchor_price_unadjusted,reanchor_date,price_adjusted,price_unadjusted,rolled_estimate_bn,new_snapshot_bn,error_pct,adjusted_price_ratio,unadjusted_price_ratio,implied_share_change_pct
+AAPL,2019-01-02,746.08,37.35,157.74,2019-02-01,39.41,166.44,787.2293,784.81,0.3083,1.055154,1.055154,-0.3073
+MSFT,2019-01-02,780.36,94.43,101.57,2019-02-01,97.09,104.43,802.342,801.21,0.1413,1.028169,1.028158,-0.14
+XOM,2019-01-02,288.92,48.28,68.19,2019-02-01,51.89,73.28,310.5232,310.33,0.0622,1.074772,1.074644,-0.0503

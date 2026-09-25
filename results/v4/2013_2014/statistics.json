@@ -1,0 +1,193 @@
+{
+  "key": "sa__v4_2013",
+  "label": "v4, 2013 to 2014",
+  "version": "v4",
+  "role": "current",
+  "folder": "v4/2013_2014",
+  "meta": {
+    "key": "sa__v4_2013",
+    "projectId": 36836415,
+    "backtestId": "0ca8b5de8aa85c494a003aa2355333cb",
+    "name": "v4 daily caps 2013-2014",
+    "created": "2026-09-25 00:50:08",
+    "backtestStart": "2013-01-01 00:00:00",
+    "backtestEnd": "2014-12-31 23:59:59",
+    "tradeableDates": 504,
+    "status": "Completed.",
+    "error": null,
+    "stacktrace": null,
+    "nodeName": "Community B-MICRO",
+    "snapshotId": 36924946,
+    "leanVersion": "v2.5.0.0.18126",
+    "exported": "2026-09-25",
+    "ordersReported": 10001,
+    "ordersExported": 10001,
+    "codeFiles": [
+      "main.py",
+      "rank_space.py",
+      "research.ipynb"
+    ]
+  },
+  "parameters": {
+    "start_year": "2013",
+    "end_year": "2014"
+  },
+  "statistics": {
+    "Total Orders": "10001",
+    "Average Win": "0.04%",
+    "Average Loss": "-0.04%",
+    "Compounding Annual Return": "-3.345%",
+    "Drawdown": "8.300%",
+    "Expectancy": "-0.029",
+    "Start Equity": "1000000",
+    "End Equity": "939580.89",
+    "Net Profit": "-6.042%",
+    "Sharpe Ratio": "-1.332",
+    "Sortino Ratio": "-1.691",
+    "Probabilistic Sharpe Ratio": "0.008%",
+    "Loss Rate": "52%",
+    "Win Rate": "48%",
+    "Profit-Loss Ratio": "1.02",
+    "Alpha": "-0.028",
+    "Beta": "-0.018",
+    "Annual Standard Deviation": "0.023",
+    "Annual Variance": "0.001",
+    "Information Ratio": "-1.864",
+    "Tracking Error": "0.098",
+    "Treynor Ratio": "1.68",
+    "Total Fees": "$50980.39",
+    "Estimated Strategy Capacity": "$190000000.00",
+    "Lowest Capacity Asset": "FDX R735QTJ8XC9X",
+    "Portfolio Turnover": "39.08%",
+    "Drawdown Recovery": "62"
+  },
+  "runtimeStatistics": {
+    "Equity": "$939,580.89",
+    "Fees": "-$50,980.39",
+    "Holdings": "$1,240,836.52",
+    "Net Profit": "$-54,440.07",
+    "Probabilistic Sharpe Ratio": "0.008%",
+    "Return": "-6.04 %",
+    "Unrealized": "$-6,227.21",
+    "Volume": "$254,801,265.78"
+  },
+  "tradeStatistics": {
+    "startDateTime": "2013-01-02T21:00:00Z",
+    "endDateTime": "2014-10-30T20:00:00Z",
+    "totalNumberOfTrades": 5031,
+    "numberOfWinningTrades": 2455,
+    "numberOfLosingTrades": 2576,
+    "totalProfitLoss": "-3459.96",
+    "totalProfit": "1036441.96",
+    "totalLoss": "-1039901.92",
+    "largestProfit": "4264.64",
+    "largestLoss": "-3863.52",
+    "averageProfitLoss": "-0.6877",
+    "averageProfit": "422.1760",
+    "averageLoss": "-403.6886",
+    "averageTradeDuration": "5.11:58:34.8479833",
+    "averageWinningTradeDuration": "5.12:08:00.9776166",
+    "averageLosingTradeDuration": "5.11:49:35.3105820",
+    "medianTradeDuration": "4.00:00:00",
+    "medianWinningTradeDuration": "4.00:00:00",
+    "medianLosingTradeDuration": "4.00:00:00",
+    "maxConsecutiveWinningTrades": 10,
+    "maxConsecutiveLosingTrades": 12,
+    "profitLossRatio": "1.0458",
+    "winLossRatio": "0.9530",
+    "winRate": "0.4880",
+    "lossRate": "0.5120",
+    "averageMAE": "-330.7153",
+    "averageMFE": "321.8137",
+    "largestMAE": "-5249.16",
+    "largestMFE": "4264.64",
+    "maximumClosedTradeDrawdown": "-50879.33",
+    "maximumIntraTradeDrawdown": "-51101.93",
+    "profitLossStandardDeviation": "595.9491",
+    "profitLossDownsideDeviation": "426.7745",
+    "profitFactor": "0.9967",
+    "sharpeRatio": "-0.0012",
+    "sortinoRatio": "-0.0016",
+    "profitToMaxDrawdownRatio": "-0.0680",
+    "maximumEndTradeDrawdown": "3872.99",
+    "averageEndTradeDrawdown": "-322.5014",
+    "maximumDrawdownDuration": "57.23:00:00",
+    "totalFees": "50781.3128"
+  },
+  "portfolioStatistics": {
+    "averageWinRate": "0.0004",
+    "averageLossRate": "-0.0004",
+    "profitLossRatio": "1.0213",
+    "winRate": "0.4804",
+    "lossRate": "0.5196",
+    "expectancy": "-0.0289",
+    "startEquity": "1000000",
+    "endEquity": "939580.8853",
+    "compoundingAnnualReturn": "-0.0334",
+    "drawdown": "0.083",
+    "totalNetProfit": "-0.0604",
+    "sharpeRatio": "-1.3322",
+    "probabilisticSharpeRatio": "0.0001",
+    "sortinoRatio": "-1.6911",
+    "alpha": "-0.0277",
+    "beta": "-0.0181",
+    "annualStandardDeviation": "0.0229",
+    "annualVariance": "0.0005",
+    "informationRatio": "-1.8644",
+    "trackingError": "0.0980",
+    "treynorRatio": "1.6803",
+    "portfolioTurnover": "0.3908",
+    "valueAtRisk99": "-0.003",
+    "valueAtRisk95": "-0.002",
+    "drawdownRecovery": "62"
+  },
+  "analysis": [
+    {
+      "name": "ExceededMaximumOrdersOrderResponseErrorAnalysis",
+      "issue": "The algorithm hit the organization's quota for the number of orders allowed in a backtest.",
+      "sample": "2014-10-31 16:00:00 You have exceeded maximum number of orders (10000), for unlimited orders upgrade your account."
+    },
+    {
+      "name": "PortfolioMarginUsageAnalysis",
+      "issue": "The algorithm sometimes only utilizes a small proportion of the margin available.",
+      "sample": "Number of days when the 3-day SMA of the margin usage drops below 50%: 222"
+    },
+    {
+      "name": "PerformanceRelativeToBenchmarkAnalysis",
+      "issue": "The strategy has a lower Sharpe ratio than the benchmark.",
+      "sample": {
+        "backtestSharpe": -1.9229832179140558,
+        "benchmarkSharpe": -0.3381562345768595
+      }
+    },
+    {
+      "name": "StatisticalSignificanceOfDailyReturnsAnalysis",
+      "issue": "The distribution of the strategy's daily returns in excess of the benchmark's daily returns has a p-value above 0.05. Therefore, we fail to reject the null hypothesis that the mean of this distribution is above zero.",
+      "sample": {
+        "pValue": 0.05418486097892339
+      }
+    }
+  ],
+  "derived": {
+    "orders_by_status": {
+      "Canceled": 688,
+      "Filled": 9307,
+      "Submitted": 6
+    },
+    "first_date_traded": "2013-01-02",
+    "last_date_traded": "2014-10-30",
+    "order_cap_hit": "2014-10-31",
+    "insufficient_buying_power_errors": null,
+    "lean_version": "v2.5.0.0.18126",
+    "code_sha256_as_run": {
+      "main.py": "15789ef3b315f11a5f05caa0e1480b85a222a5f5dc1bf5039205fd301a94b0d5",
+      "rank_space.py": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    },
+    "code_sha256_published": {
+      "main.py": "1e4ab45f41d2985cc6e75e33ed42c7fc02b797b9cdec3dac125f4b92b5c8e71b",
+      "rank_space.py": "024d3f7c23c4d998d411828cba5852ca3b424f57a467037b6b743f1244aa75b6",
+      "research.ipynb": "212a51a9f8eb8c29ef77442c5b3db3cc0fe308d7c18f9f2c6ecf7ed86186778e"
+    }
+  }
+}

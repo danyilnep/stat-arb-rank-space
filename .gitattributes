@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.gz binary
+*.pptx binary
+*.pdf binary
+
+# GitHub's language bar: QuantConnect's generated reports, the 2024 material and the code copied
+# from the exports are not the code of this repository.
+results/superseded/**/qc_report.html linguist-generated=true
+results/**/code/*.py linguist-generated=true
+received/** linguist-vendored
